@@ -3,7 +3,7 @@ library(shinyWidgets)
 
 title_info = read.csv("/Users/shashanksharma/github/Movie-TV-Show-recommendation-/Data preperation/title_information.csv")
 
-cast_info = read.csv("/Users/shashanksharma/github/Movie-TV-Show-recommendation-/Data preperation/cast_infromation.csv")
+cast_info = read.csv("/Users/shashanksharma/github/Movie-TV-Show-recommendation-/Data preperation/cast_information.csv")
 
 ui <- fluidPage(
 tags$style("body {background-color: #F0F0F0; }"),
@@ -50,8 +50,8 @@ sidebarLayout(
                                  ),
                   sliderInput("year", 
                               h5(strong("Select year range"),style = "color:brown;font-family: 'georgia';" ),
-                              1900, 2020, 
-                              value = c(1900, 2020),
+                              1950, 2020, 
+                              value = c(1950, 2020),
                               sep = ""),
                   
                   sliderInput("rating", 
