@@ -1,6 +1,6 @@
 # Data preperation 
 
-All the datasets used for this project are sourced directly from IMDB, which can be viewd and downloaded from this link https://www.imdb.com/interfaces/
+All the datasets used for this project are sourced directly from IMDB, which can be viewd and downloaded from this link https://www.imdb.com/interfaces/. 
 
 The datasets are normalised to third degree, hence the data prep jupyter notebook retreives the required columns of data from different datasets and creates two csv files:
 
