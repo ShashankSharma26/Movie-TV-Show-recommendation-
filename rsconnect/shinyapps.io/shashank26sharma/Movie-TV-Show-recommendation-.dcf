@@ -5,9 +5,8 @@ account: shashank26sharma
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2222574
-bundleId: 3096312
+bundleId: 3104477
 url: https://shashank26sharma.shinyapps.io/Movie-TV-Show-recommendation-/
-when: 1588497689.54063
+when: 1588653262.58721
 asMultiple: FALSE
 asStatic: FALSE
-ignoredFiles: Data preperation/.DS_Store|Data preperation/Data prep.ipynb|Data preperation/README.md
